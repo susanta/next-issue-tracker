@@ -1,5 +1,10 @@
+import { Button } from '@radix-ui/themes';
 import Image from 'next/image';
 
 export default function Home() {
-  return <div>Next issue tracker</div>;
+  return (
+    <div>
+      <Button>New Issue</Button>
+    </div>
+  );
 }
